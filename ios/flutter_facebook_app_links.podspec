@@ -12,7 +12,7 @@ Flutter plugin for Facebook App Links SDK
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Marco Nicotra' => 'm26.nicotra@gmail.com' }
   s.source           = { :path => '.' }
-  s.source_files = 'Classes/**/*'
+  s.source_files = 'flutter_facebook_app_links/Sources/flutter_facebook_app_links/**/*.swift'
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
   s.dependency 'FBSDKCoreKit', '~> 18.0'

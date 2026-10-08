@@ -1,6 +1,10 @@
 import Flutter
 import UIKit
+#if canImport(FacebookCore)
+import FacebookCore
+#else
 import FBSDKCoreKit
+#endif
 
 
 public class SwiftFlutterFacebookAppLinksPlugin: NSObject, FlutterPlugin {

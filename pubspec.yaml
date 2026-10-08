@@ -22,4 +22,4 @@ flutter:
         package: it.remedia.flutter_facebook_app_links
         pluginClass: FlutterFacebookAppLinksPlugin
       ios:
-        pluginClass: FlutterFacebookAppLinksPlugin
+        pluginClass: SwiftFlutterFacebookAppLinksPlugin
